@@ -1,2 +1,7 @@
-# sa-labs-analysis-preference
-Preference files for analysis coordination
+# Analysis preference files
+
+It contains Preference files for analysis coordination and uses MAVO based web-app for creating all the configurations
+
+https://schwartz-alalaurila-labs.github.io/sa-labs-analysis-preference/
+
+Reference: https://mavo.io
