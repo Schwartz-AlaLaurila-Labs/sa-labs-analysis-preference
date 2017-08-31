@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>SA-Labs Analysis Preference</title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <!-- Add mavo -->
+  <script src="https://get.mavo.io/mavo.js"></script>
+  <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
+</head>
+
+<body>
+
+  <div mv-app mv-storage="https://github.com/Schwartz-AlaLaurila-Labs/sa-labs-analysis-preference/data/cellTags.json">
+    <div class="mv-bar mv-ui">
+      <section>
+        <header>Cell Tag Configuration </header>
+      </section>
+    </div>
+    <article property="cellTags" mv-multiple>
+
+      <span property="name"></span>
+      <article property="values" mv-multiple>
+        <span property="value" />
+      </article>
+    </article>
+  </div>
+
+  <div mv-app="mavoTest" mv-storage="local">
+      <div class="mv-bar mv-ui">
+      <section>
+        <header>Cell Type Configuration </header>
+      </section>
+    </div>
+    <article property="cellTypes" mv-multiple>
+      <span property="cellType"></span>
+    </article>
+  </div>
+
+  <div mv-app="mavoTest" mv-storage="local">
+     <div class="mv-bar mv-ui">
+      <section>
+        <header>Epoch Tags Configuration </header>
+      </section>
+    </div>
+    <article property="epochTags" mv-multiple>
+      <span property="name"></span>
+      <article property="values" mv-multiple>
+        <span property="value" />
+      </article>
+    </article>
+  </div>
+</body>
+</html>
