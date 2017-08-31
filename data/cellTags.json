@@ -1,1 +1,24 @@
-
+{
+	"cellTags": [
+		{
+			"name": "QualityRating",
+			"values": [
+				{
+					"value": "\n      "
+				},
+				{
+					"value": "4"
+				},
+				{
+					"value": "3"
+				},
+				{
+					"value": "2"
+				},
+				{
+					"value": "1"
+				}
+			]
+		}
+	]
+}
