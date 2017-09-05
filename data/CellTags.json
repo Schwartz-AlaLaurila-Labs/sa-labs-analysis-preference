@@ -3,6 +3,18 @@
 		{
 			"name": "\n                ",
 			"value": " "
+		},
+		{
+			"name": "Quality rating",
+			"value": "4, 3, 2, 1"
+		},
+		{
+			"name": "Cell class",
+			"value": "RGC, Amacrine, Bipolar, Photoreceptor "
+		},
+		{
+			"name": "Recorded By",
+			"value": "Greg, Petri"
 		}
 	]
 }
