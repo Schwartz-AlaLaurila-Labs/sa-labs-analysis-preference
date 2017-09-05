@@ -6,7 +6,14 @@
   <!--  Meta  -->
   <meta charset="UTF-8" />
   <title>SA-Labs Analysis Preference</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <!--  Styles  -->
   <link rel="stylesheet" href="styles/index.processed.css">
   <!-- Add mavo -->
@@ -15,45 +22,63 @@
 </head>
 
 <body>
+  <div class="row">
+    <div class="col-lg-5">
 
-  <div mv-app mv-storage="https://github.com/Schwartz-AlaLaurila-Labs/sa-labs-analysis-preference/data/cellTags.json">
-    <div class="mv-bar mv-ui">
-      <section>
-        <header>Cell Tag Configuration </header>
-      </section>
+      <div mv-app mv-storage="https://github.com/Schwartz-AlaLaurila-Labs/sa-labs-analysis-preference/data/CellTags.json">
+        <div class="panel panel-primary">
+          <div class="panel-heading"> Cell Tag Configuration </div>
+          <div class="panel-body">
+            <article property="cellTags" mv-multiple>
+              <div class="row show-grid">
+                <div class="col-md-2">
+                  <span property="name" />
+                </div>
+                <div class="col-md-8"> <span property="value" /> </div>
+            </article>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-7">
+
+        <div mv-app mv-storage="https://github.com/Schwartz-AlaLaurila-Labs/sa-labs-analysis-preference/data/CellTYpeNames.json">
+          <div class="panel panel-primary">
+            <div class="panel-heading"> Cell Type Names </div>
+            <div class="panel-body">
+              <div class="row">
+                <article property="cellTags" mv-multiple>
+                  <div class="col-md-2">
+                    <span property="cell type name" />
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-    <article property="cellTags" mv-multiple>
+    <div class="row">
+      <div class="col-lg-5">
 
-      <span property="name"></span>
-      <article property="values" mv-multiple>
-        <span property="value" />
-      </article>
-    </article>
-  </div>
+        <div mv-app mv-storage="https://github.com/Schwartz-AlaLaurila-Labs/sa-labs-analysis-preference/data/EpochTags.json">
+          <div class="panel panel-primary">
+            <div class="panel-heading"> Epoch Tag Configuration </div>
+            <div class="panel-body">
+              <article property="cellTags" mv-multiple>
+                <div class="row show-grid">
+                  <div class="col-md-2">
+                    <span property="name" />
+                  </div>
+                  <div class="col-md-8"> <span property="value" /> </div>
+              </article>
+              </div>
+            </div>
+          </div>
 
-  <div mv-app="mavoTest" mv-storage="local">
-      <div class="mv-bar mv-ui">
-      <section>
-        <header>Cell Type Configuration </header>
-      </section>
-    </div>
-    <article property="cellTypes" mv-multiple>
-      <span property="cellType"></span>
-    </article>
-  </div>
-
-  <div mv-app="mavoTest" mv-storage="local">
-     <div class="mv-bar mv-ui">
-      <section>
-        <header>Epoch Tags Configuration </header>
-      </section>
-    </div>
-    <article property="epochTags" mv-multiple>
-      <span property="name"></span>
-      <article property="values" mv-multiple>
-        <span property="value" />
-      </article>
-    </article>
-  </div>
+        </div>
 </body>
+
 </html>
