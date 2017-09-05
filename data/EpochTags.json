@@ -11,6 +11,10 @@
 		{
 			"name": "LS_standard200",
 			"value": "1"
+		},
+		{
+			"name": "Test tag",
+			"value": "1, 2, 3"
 		}
 	]
 }
