@@ -17,6 +17,9 @@
 		},
 		{
 			"cell type name": "ON-OFF DS sustained"
+		},
+		{
+			"cell type name": "ON OS"
 		}
 	]
 }
