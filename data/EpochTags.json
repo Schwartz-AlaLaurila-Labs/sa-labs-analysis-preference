@@ -7,6 +7,10 @@
 		{
 			"name": "ExcessDataSetForCell",
 			"value": "1"
+		},
+		{
+			"name": "LS_standard200",
+			"value": "1"
 		}
 	]
 }
