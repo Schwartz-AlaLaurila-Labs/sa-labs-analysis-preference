@@ -1,0 +1,19 @@
+{
+	"cellTypes": [
+		{
+			"cell type name": "\n                    "
+		},
+		{
+			"cell type name": "OFF sustained alpha"
+		},
+		{
+			"cell type name": "ON alpha"
+		},
+		{
+			"cell type name": "OFF transient high speed sensitive"
+		},
+		{
+			"cell type name": "ON DS sustained"
+		}
+	]
+}
