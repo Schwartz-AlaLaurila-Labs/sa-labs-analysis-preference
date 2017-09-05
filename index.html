@@ -22,50 +22,15 @@
 </head>
 
 <body>
-  <div class="row">
-    <div class="col-lg-5">
+  <div class="container">
+    <h3>Analysis Preference Configuration </h3>
 
-      <div mv-app mv-storage="https://github.com/Schwartz-AlaLaurila-Labs/sa-labs-analysis-preference/data/CellTags.json">
-        <div class="panel panel-primary">
-          <div class="panel-heading"> Cell Tag Configuration </div>
-          <div class="panel-body">
-            <article property="cellTags" mv-multiple>
-              <div class="row show-grid">
-                <div class="col-md-2">
-                  <span property="name" />
-                </div>
-                <div class="col-md-8"> <span property="value" /> </div>
-            </article>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="col-lg-7">
-
-        <div mv-app mv-storage="https://github.com/Schwartz-AlaLaurila-Labs/sa-labs-analysis-preference/data/CellTYpeNames.json">
-          <div class="panel panel-primary">
-            <div class="panel-heading"> Cell Type Names </div>
-            <div class="panel-body">
-              <div class="row">
-                <article property="cellTags" mv-multiple>
-                  <div class="col-md-2">
-                    <span property="cell type name" />
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
     <div class="row">
       <div class="col-lg-5">
 
-        <div mv-app mv-storage="https://github.com/Schwartz-AlaLaurila-Labs/sa-labs-analysis-preference/data/EpochTags.json">
+        <div mv-app mv-storage="https://github.com/Schwartz-AlaLaurila-Labs/sa-labs-analysis-preference/data/CellTags.json">
           <div class="panel panel-primary">
-            <div class="panel-heading"> Epoch Tag Configuration </div>
+            <div class="panel-heading"> Cell Tag Configuration </div>
             <div class="panel-body">
               <article property="cellTags" mv-multiple>
                 <div class="row show-grid">
@@ -78,6 +43,45 @@
             </div>
           </div>
 
+        </div>
+        <div class="col-lg-7">
+
+          <div mv-app mv-storage="https://github.com/Schwartz-AlaLaurila-Labs/sa-labs-analysis-preference/data/CellTYpeNames.json">
+            <div class="panel panel-primary">
+              <div class="panel-heading"> Cell Type Names </div>
+              <div class="panel-body">
+                <div class="row">
+                  <article property="cellTags" mv-multiple>
+                    <div class="col-md-2">
+                      <span property="cell type name" />
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+
+          <div mv-app mv-storage="https://github.com/Schwartz-AlaLaurila-Labs/sa-labs-analysis-preference/data/EpochTags.json">
+            <div class="panel panel-primary">
+              <div class="panel-heading"> Epoch Tag Configuration </div>
+              <div class="panel-body">
+                <article property="cellTags" mv-multiple>
+                  <div class="row show-grid">
+                    <div class="col-md-2">
+                      <span property="name" />
+                    </div>
+                    <div class="col-md-8"> <span property="value" /> </div>
+                </article>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
 </body>
 
